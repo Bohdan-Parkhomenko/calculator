@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  /*font-family: 'AR One Sans', sans-serif;*/
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+    text-align: center;
+}
+
+.container {
+    width: 75%;
+
+    justify-content: space-between;
+}
+
+.menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    background-color: #282c34;
+    border-right: 1px solid #f3f2f2;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.menu ul li:hover {
+    background-color: #f8ce40;
+}
+
+.menu li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.content {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.content .plane-space{
+
+}
+.content button,
+.content .plane-space  button{
+  border-radius: 12px;
+  margin: 0.5rem 1rem 0.5rem 0;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+.content button:hover,
+.content .plane-space  button:hover {
+  background-color: #f8ce40;
+}
+.content p,
+.content div{
+  margin: 10px 10px 10px 0;
+}
+
+input {
+    width: 30px;
+}
